@@ -64,11 +64,15 @@
     }
     
     .About-Me{
+           display: flex;
+           padding-top: 80px;
+           height: 485px;
            width: 100%;
            color: #828282;
            background-image: url('images/shapes/7.png');
-           background-size: contain;
+           background-size: cover;
            background-repeat: no-repeat;
+           padding-bottom: auto;
     }
     
     .featured-image {
@@ -102,23 +106,30 @@
         text-align: center;
         padding: 0px 296px;
     }
-    
+    .heading-area h2{
+        margin-top: 50px;
+    }
     .card-area {
         margin: auto;
     }
     
     .card-img img {
-        width: 380px;
+     width:100%;
+     border-radius:30px;
     }
     
     
     .single-card {
-        text-align: center;
-        padding: 10px 10px;
-        border-radius: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
+        width: 25%;
+        text-align:left;
+        padding:15px;
+        border-radius: 40px;
+        margin-left: 5px;
         box-shadow: 0px 0px 11px 10px rgb(0 0 0 / 15%);
+    }
+    .card-info h3{
+        padding-top: 5px;
+        font-size: 30px;
     }
     
     .counting-area {
@@ -143,7 +154,7 @@
         color: #575757;
         text-align: center;
         background: #0B0D17;
-        padding: 80px 0;
+        padding: 50px 0;
     }
     
     footer p{
@@ -152,6 +163,6 @@
         padding-top: 30px;
     }
     .design p{
-        font-size: 50px;
-        padding-top: 100px;
+        font-size: 17px;
+        padding-top: 80px;
     }
