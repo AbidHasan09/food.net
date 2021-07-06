@@ -48,6 +48,10 @@
         padding-right: 40px;
         height: auto;
     }
+
+    .right-info {
+        padding-right: 200px;
+    }
     
     .link-button {
         text-decoration: none;
@@ -55,6 +59,7 @@
         padding: 20px 50px;
         border-radius: 40px;
         display: inline-block;
+        margin-top: 25px;
         background-image: linear-gradient(rgba(235, 51, 38, 0.945),orange);
     }
     
@@ -142,5 +147,11 @@
     }
     
     footer p{
-        font-size: 12px;
+        font-size: 17px;
+        color: white;
+        padding-top: 30px;
+    }
+    .design p{
+        font-size: 50px;
+        padding-top: 100px;
     }
