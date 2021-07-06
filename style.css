@@ -65,12 +65,12 @@
     
     .About-Me{
            display: flex;
-           padding-top: 80px;
-           height: 485px;
+           padding-top: 60px;
+           height: 580px;
            width: 100%;
            color: #828282;
            background-image: url('images/shapes/7.png');
-           background-size: cover;
+           background-size:cover;
            background-repeat: no-repeat;
            padding-bottom: auto;
     }
@@ -80,6 +80,7 @@
     }
     
     .featured-image img{
+        padding-top: 95px;
         width: 305px;
         height: auto;
     }
