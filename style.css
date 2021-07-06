@@ -1,0 +1,146 @@
+*{
+    margin: 0px; padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    .left-side {
+        padding-left: 70px;
+    }
+    
+    .left-side h1 {
+        font-size: 57px;
+        color: #575757;
+        padding-top: 100px;
+        font-weight: 600;
+    
+    }
+    .left-side h3{
+        font-size: 20px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        color: #828282;
+    }
+    
+    p {
+        font-size: 20px;
+        color: #828282;
+    }
+    
+    .color{
+        color:#FB8C47;
+    }
+    
+    .flexible-container {
+        display: flex;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        justify-content: space-around;
+    }
+    
+    .half-width{
+        width:50%;
+        padding-left: 30px;
+       
+    }
+    
+    .right-image img {
+        width: 500px;
+        padding-right: 40px;
+        height: auto;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        color: white;
+        padding: 20px 50px;
+        border-radius: 40px;
+        display: inline-block;
+        background-image: linear-gradient(rgba(235, 51, 38, 0.945),orange);
+    }
+    
+    .About-Me{
+           width: 100%;
+           color: #828282;
+           background-image: url('images/shapes/7.png');
+           background-size: contain;
+           background-repeat: no-repeat;
+    }
+    
+    .featured-image {
+        margin-left: 170px;
+    }
+    
+    .featured-image img{
+        width: 305px;
+        height: auto;
+    }
+    
+    .right-info h1 {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .right-info .link-button {
+        margin-top: 90px;
+    }
+    
+    .heading-area h2 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 50px;
+    }
+    
+    .heading-area p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 0px 296px;
+    }
+    
+    .card-area {
+        margin: auto;
+    }
+    
+    .card-img img {
+        width: 380px;
+    }
+    
+    
+    .single-card {
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        box-shadow: 0px 0px 11px 10px rgb(0 0 0 / 15%);
+    }
+    
+    .counting-area {
+        box-shadow: 0px 0px 11px 10px rgb(0 0 0 / 15%);
+    }
+    
+    .counting-single-card h3 {
+        font-size: 50px;
+    }
+    
+    .counting-area {
+        box-shadow: 0px 0px 11px 10px rgb(0 0 0 / 15%);
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 10px;
+        padding: 30px 50px;
+        margin-bottom: 80px;
+    }
+    
+    footer {
+        color: #575757;
+        text-align: center;
+        background: #0B0D17;
+        padding: 80px 0;
+    }
+    
+    footer p{
+        font-size: 12px;
+    }
